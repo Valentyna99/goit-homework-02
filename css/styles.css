@@ -95,11 +95,12 @@ color: #404bbf;
 }
 .hero-button-link:hover{
     background-color: #404bbf;
+    cursor: pointer;
 }
 
 .hero-button-link:focus {
     background-color: #404bbf;
-    cursor: pointer;
+    
 }
 
 /* Our Advantages */
