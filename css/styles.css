@@ -91,9 +91,8 @@ color: #404bbf;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.04em;
-        
-        
 }
+
 .hero-button-link:hover{
     background-color: #404bbf;
     cursor: pointer;
