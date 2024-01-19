@@ -41,7 +41,7 @@ a{
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
-.header-menu-link:hover .link:focus {
+.header-menu-link:hover{
     color: #404bbf;
 }
 .header-menu-link:focus{
@@ -63,7 +63,7 @@ color: #404bbf;
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
-.header-address-link:hover .link:focus{
+.header-address-link:hover{
     color: #404bbf;
 }
 
@@ -94,7 +94,7 @@ color: #404bbf;
         letter-spacing: 0.04em;
         cursor: pointer;
 }
-.hero-button-link:hover .link:focus{
+.hero-button-link:hover{
     background-color: #404bbf;
 }
 
