@@ -21,7 +21,7 @@ a{
             font-family: Raleway ,sans-serif;
             font-size: 18px;
             font-weight: 700;
-            line-height: 1.17px;
+            line-height: 1.17;
             letter-spacing: 0.03em;
             text-transform: uppercase;
 }
@@ -41,8 +41,11 @@ a{
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
-.header-menu-link .link:hover .link:focus {
+.header-menu-link:hover .link:focus {
     color: #404bbf;
+}
+.header-menu-link:focus{
+color: #404bbf;
 }
 
 .header-address {
@@ -60,9 +63,14 @@ a{
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
-.header-address-link .link:hover .link:focus{
+.header-address-link:hover .link:focus{
     color: #404bbf;
 }
+
+.header-address-link:focus {
+    color: #404bbf;
+}
+
 /* Hero */
 .hero {
     background:  #2E2F42;
@@ -74,6 +82,7 @@ a{
         font-weight: 700;
         line-height: 1.07;
         letter-spacing: 0.02em;
+        text-align: center;
 }
 .hero-button {
     font-family: "Roboto", sans-serif;
@@ -85,9 +94,14 @@ a{
         letter-spacing: 0.04em;
         cursor: pointer;
 }
-.hero-button .link:hover .link:focus{
+.hero-button-link:hover .link:focus{
     background-color: #404bbf;
 }
+
+.hero-button-link:focus {
+    background-color: #404bbf;
+}
+
 /* Our Advantages */
 .advantages {}
 
