@@ -79,12 +79,11 @@ color: #404bbf;
     color:  #FFF;
 
         font-size: 56px;
-        font-weight: 700;
         line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
 }
-.hero-button {
+.hero-button-link {
     font-family: "Roboto", sans-serif;
         background: #4D5AE5;
         color: #FFFFFF;
@@ -92,7 +91,7 @@ color: #404bbf;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.04em;
-        cursor: pointer;
+        
 }
 .hero-button-link:hover{
     background-color: #404bbf;
@@ -100,6 +99,7 @@ color: #404bbf;
 
 .hero-button-link:focus {
     background-color: #404bbf;
+    cursor: pointer;
 }
 
 /* Our Advantages */
